@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Implementaciones de Seguridad -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; frame-src https://www.youtube.com;"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+
+    <title>La Salud es lo 1ero | Patrocinios</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="/src/styles.css" />
+
+    <!-- SDK de EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        // === PASO 1: INICIALIZACIÓN DE EMAILJS ===
+        // Reemplaza 'TU_PUBLIC_KEY' con tu llave pública de EmailJS
+        emailjs.init("TU_PUBLIC_KEY");
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- Navegación -->
+    <nav class="navbar">
+      <div class="logo">
+        <img
+          src="/src/assets/logosalud.png"
+          alt="La Salud es lo 1ero Logo"
+          onerror="
+            this.src =
+              'https://placehold.co/400x120/ffffff/2A3B5C?text=La+Salud+es+lo+1ero&font=Montserrat'
+          "
+        />
+      </div>
+      <a href="#contacto" class="btn-primary">Patrocinar Programa</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content fade-in">
+        <h1>
+          Conecta tu marca con quienes toman las decisiones de salud en Aragua.
+        </h1>
+        <p>
+          Únete a la Lcda. Edit Piñero (Enfermera Quirúrgica) y Lcda. Marina Abreu (Enfermera Docente) en el programa de
+          medicina preventiva con la audiencia más segmentada de Radio Boost
+          Digital.
+        </p>
+        <a href="#paquetes" class="btn-primary">Ver Opciones de Inversión</a>
+      </div>
+      <div class="hero-video slide-left">
+        <!-- Solución Alternativa: Miniatura enlazada a YouTube -->
+        <a
+          href="https://youtu.be/JqrKyuLv_ZY"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="video-fallback"
+        >
+          <img
+            src="https://img.youtube.com/vi/JqrKyuLv_ZY/maxresdefault.jpg"
+            alt="Ver video de La Salud es lo 1ero"
+            onerror="
+              this.src = 'https://img.youtube.com/vi/JqrKyuLv_ZY/hqdefault.jpg'
+            "
+          />
+          <div class="play-btn">▶</div>
+        </a>
+      </div>
+    </header>
+    <!-- Sección Quiénes Somos -->
+    <section class="about section-padding">
+      <div class="about-img slide-right">
+        <img
+          src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+          alt="Lcda. Edith Piñero y Lcda. Marina Abreu"
+        />
+      </div>
+      <div class="about-text slide-left">
+        <h2>Autoridad y Confianza en Cada Emisión</h2>
+        <p>
+          No somos solo voces comerciales. Como profesionales de la enfermería
+          con años de trayectoria, transferimos credibilidad inmediata a tu
+          clínica, farmacia o consultorio.
+        </p>
+        <ul>
+          <li>Medicina preventiva y bienestar.</li>
+          <li>Divulgación científica accesible e interactiva.</li>
+          <li>Entrevistas a los mejores especialistas de la región.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Sección Audiencia -->
+    <section class="stats section-padding slide-up">
+      <h2>Tu Próximo Paciente nos Escucha</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3 class="counter" data-target="1500">0</h3>
+          <span>+</span>
+          <p>Comunidad Digital (Instagram)</p>
+        </div>
+        <div class="stat-card">
+          <h3 class="counter" data-target="40">0</h3>
+          <span>+</span>
+          <p>Edad Promedio (Tomadoras de decisión)</p>
+        </div>
+        <div class="stat-card">
+          <h3 class="text-stat">FM + Online</h3>
+          <p>Alcance Global y Local (Aragua)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Paquetes -->
+    <section id="paquetes" class="packages section-padding">
+      <h2>Opciones de Inversión Estratégica</h2>
+      <div class="packages-grid">
+        <div class="card fade-in">
+          <h3 style="color: var(--navy-blue)">Paquete Presencia</h3>
+          <p>
+            Menciones dinámicas en vivo de 10 a 20 segundos. Ideal para
+            farmacias, laboratorios e insumos médicos buscando recordación
+            constante.
+          </p>
+        </div>
+        <div class="card featured fade-in">
+          <div class="fomo-tag">🔥 Solo 4 cupos disponibles al mes</div>
+          <h3 style="color: var(--orange)">Paquete Autoridad</h3>
+          <p>
+            Entrevista en vivo de 30 a 60 minutos. La joya de la corona para
+            médicos que desean demostrar conocimientos y atraer pacientes
+            directos a su consulta.
+          </p>
+        </div>
+        <div class="card fade-in">
+          <div class="fomo-tag fomo-teal">⏳ Solo 1 marca por especialidad</div>
+          <h3 style="color: var(--teal)">Paquete Exclusividad</h3>
+          <p>
+            Patrocinio exclusivo de una sección del programa (Ej. "El Minuto
+            Cardiológico"). Posicionamiento total y absoluto de tu marca.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección FAQ -->
+    <section class="faq section-padding slide-up">
+      <h2>Preguntas Frecuentes</h2>
+      <div class="faq-container">
+        <details>
+          <summary>
+            ¿Necesito experiencia hablando en radio para la entrevista?
+          </summary>
+          <p>
+            ¡Para nada! Nosotras guiamos toda la conversación de forma natural.
+            Te haremos sentir como si estuvieras charlando con un paciente en tu
+            consultorio.
+          </p>
+        </details>
+        <details>
+          <summary>Mi clínica no está en Maracay, ¿igual me sirve?</summary>
+          <p>
+            Sí, nuestra señal FM cubre gran parte del Estado Aragua y contamos
+            con alcance global a través de nuestra transmisión online. Atraerás
+            pacientes de múltiples zonas.
+          </p>
+        </details>
+        <details>
+          <summary>
+            ¿Ustedes diseñan la mención comercial o debo entregar un guion?
+          </summary>
+          <p>
+            Podemos hacer ambas cosas. Si tienes un guion, lo adaptamos a
+            nuestro estilo. Si no, nuestro equipo redactará una mención
+            persuasiva basada en la información de tu clínica sin costo
+            adicional.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Lead Magnet Formulario -->
+    <section id="contacto" class="lead-magnet section-padding">
+      <div class="form-container slide-up">
+        <h2>Descarga el Media Kit</h2>
+        <p>
+          Déjanos tus datos para enviarte de inmediato nuestras tarifas,
+          métricas y disponibilidad actual.
+        </p>
+        <form id="mediaKitForm">
+          <!-- Asegúrate que los "name" coincidan con las variables en EmailJS -->
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu Nombre y Cargo"
+            required
+          />
+          <input
+            type="text"
+            id="clinica"
+            name="clinica"
+            placeholder="Nombre de tu Clínica, Marca o Especialidad"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Correo Electrónico Laboral"
+            required
+          />
+          <button type="submit" class="btn-primary">
+            Descargar Media Kit en PDF
+          </button>
+        </form>
+        <p class="form-disclaimer">
+          Tus datos están seguros. No enviamos spam, solo el documento
+          prometido.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2026 La Salud es lo 1ero - Radio Boost Digital. Todos los
+        derechos reservados. | Maracay, Aragua.
+      </p>
+    </footer>
+
+    <!-- Botón Flotante WhatsApp -->
+    <!-- Reemplaza el link por tu número real ej: https://wa.me/584141234567 -->
+    <a
+      href="https://wa.me/584128483641"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-float"
+      title="Escríbenos al WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" width="35" height="35" fill="white">
+        <path
+          d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564c.173.087.289.129.332.202.043.073.043.423-.101.827z"
+        />
+      </svg>
+    </a>
+
+    <!-- Enlace al archivo JS -->
+    <script src="/src/script.js"></script>
+  </body>
+</html>
