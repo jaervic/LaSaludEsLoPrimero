@@ -6,10 +6,9 @@
 <p><em>Conecta tu marca con quienes toman las decisiones de salud en Aragua.</em></p>
 
 <!-- Badges Tecnológicos -->
-
-<img src="https://www.google.com/url?sa=E&source=gmail&q=https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge%26logo=html5%26logoColor=white" alt="HTML5" />
-<img src="https://www.google.com/url?sa=E&source=gmail&q=https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge%26logo=css3%26logoColor=white" alt="CSS3" />
-<img src="https://www.google.com/url?sa=E&source=gmail&q=https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge%26logo=javascript%26logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 
 </div>
 
@@ -60,4 +59,5 @@ Desarrollado para el equipo de "La Salud es lo 1ero".
 <div align="center">
 <em>Este proyecto está diseñado para la captación B2B y crecimiento comercial del programa.</em>
 </div>
+
 
