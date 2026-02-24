@@ -1,8 +1,15 @@
-﻿# LaSaludEsLoPrimero
-🎙️ Media Kit Digital: La Salud es lo 1ero
-
 <div align="center">
 <img src="./src/assets/logosalud.png" alt="Logo La Salud es lo 1ero" width="300" />
+
+<h1>🎙️ Media Kit Digital: La Salud es lo 1ero</h1>
+
+<p><em>Conecta tu marca con quienes toman las decisiones de salud en Aragua.</em></p>
+
+<!-- Badges Tecnológicos -->
+
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/HTML5-E34F26%3Fstyle%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite" alt="HTML5" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/CSS3-1572B6%3Fstyle%3Dfor-the-badge%26logo%3Dcss3%26logoColor%3Dwhite" alt="CSS3" />
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/JavaScript-F7DF1E%3Fstyle%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3Dblack" alt="JavaScript" />
 </div>
 
 "La Salud es lo 1ero" es un programa de radio enfocado en medicina preventiva y divulgación científica, transmitido por Radio Boost Digital en Maracay, Aragua.
@@ -15,19 +22,19 @@ Crear un embudo de ventas digital (Landing Page) que comunique de manera efectiv
 
 🚀 Características Principales
 
-Diseño Moderno y Responsivo: Interfaz adaptada a dispositivos móviles y de escritorio, utilizando una paleta de colores limpia (blanco, verde menta, azul marino y acentos naranjas).
+📱 Diseño Moderno y Responsivo: Interfaz adaptada a dispositivos móviles y de escritorio, utilizando una paleta de colores limpia (blanco, verde menta, azul marino y acentos naranjas).
 
-Animaciones de Scroll (Intersection Observer): Elementos visuales y contadores numéricos que se activan suavemente a medida que el usuario navega por la página, mejorando la experiencia de usuario (UX).
+✨ Animaciones de Scroll (Intersection Observer): Elementos visuales y contadores numéricos que se activan suavemente a medida que el usuario navega por la página, mejorando la experiencia de usuario (UX).
 
-Gatillos Mentales (FOMO): Etiquetas de urgencia visuales en los paquetes de patrocinio para incentivar la rápida toma de decisiones.
+🔥 Gatillos Mentales (FOMO): Etiquetas de urgencia visuales en los paquetes de patrocinio para incentivar la rápida toma de decisiones.
 
-Sección de Preguntas Frecuentes (FAQ): Acordeón interactivo para resolver objeciones comunes de los potenciales patrocinadores antes de que contacten al equipo de ventas.
+❓ Sección de Preguntas Frecuentes (FAQ): Acordeón interactivo para resolver objeciones comunes de los potenciales patrocinadores antes de que contacten al equipo de ventas.
 
-Captación de Leads (Integración con EmailJS): Formulario "Lead Magnet" funcional que permite a los usuarios solicitar el Media Kit en PDF a cambio de sus datos comerciales, enviando notificaciones automáticas vía correo electrónico sin necesidad de un backend tradicional.
+📧 Captación de Leads (Integración con EmailJS): Formulario "Lead Magnet" funcional que permite a los usuarios solicitar el Media Kit en PDF a cambio de sus datos comerciales, enviando notificaciones automáticas vía correo electrónico sin necesidad de un backend tradicional.
 
-Botón de WhatsApp Flotante: Acceso rápido y directo para iniciar una conversación comercial.
+💬 Botón de WhatsApp Flotante: Acceso rápido y directo para iniciar una conversación comercial.
 
-Optimización y Seguridad: Implementación de cabeceras CSP, prevención XSS básica (sanitización de inputs) y optimización de carga de iframes de video.
+🛡️ Optimización y Seguridad: Implementación de cabeceras CSP, prevención XSS básica (sanitización de inputs) y optimización de carga de iframes de video.
 
 🛠️ Stack Tecnológico
 
@@ -41,14 +48,14 @@ JavaScript (ES6): Lógica de animaciones (Intersection Observer) y manejo del fo
 
 EmailJS: Servicio de terceros para el envío de correos desde el frontend.
 
-📁 Estructura del Repositorio
+📝 Autores y Producción
 
-LaSaludEsLoPrimero/
-├── index.html          # Estructura principal de la Landing Page
-├── README.md           # Documentación del proyecto
-└── src/
-    ├── styles.css      # Hoja de estilos principal
-    ├── script.js       # Lógica de interactividad y animaciones
-    └── assets/         # Carpeta para imágenes (logo, locutoras, etc.)
-        └── logosalud.png
+Desarrollado para el equipo de "La Salud es lo 1ero".
 
+🎙️ Locutoras: Lcda. Edit Piñero y Lcda. Marina Abreu.
+
+📻 Producción: Radio Boost Digital (Maracay, Venezuela).
+
+<div align="center">
+<em>Este proyecto está diseñado para la captación B2B y crecimiento comercial del programa.</em>
+</div>
