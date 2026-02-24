@@ -7,9 +7,10 @@
 
 <!-- Badges Tecnológicos -->
 
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/HTML5-E34F26%3Fstyle%3Dfor-the-badge%26logo%3Dhtml5%26logoColor%3Dwhite" alt="HTML5" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/CSS3-1572B6%3Fstyle%3Dfor-the-badge%26logo%3Dcss3%26logoColor%3Dwhite" alt="CSS3" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/JavaScript-F7DF1E%3Fstyle%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3Dblack" alt="JavaScript" />
+<img src="https://www.google.com/url?sa=E&source=gmail&q=https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge%26logo=html5%26logoColor=white" alt="HTML5" />
+<img src="https://www.google.com/url?sa=E&source=gmail&q=https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge%26logo=css3%26logoColor=white" alt="CSS3" />
+<img src="https://www.google.com/url?sa=E&source=gmail&q=https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge%26logo=javascript%26logoColor=black" alt="JavaScript" />
+
 </div>
 
 "La Salud es lo 1ero" es un programa de radio enfocado en medicina preventiva y divulgación científica, transmitido por Radio Boost Digital en Maracay, Aragua.
@@ -59,3 +60,4 @@ Desarrollado para el equipo de "La Salud es lo 1ero".
 <div align="center">
 <em>Este proyecto está diseñado para la captación B2B y crecimiento comercial del programa.</em>
 </div>
+
